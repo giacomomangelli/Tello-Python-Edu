@@ -1,0 +1,16 @@
+[project]
+name = "Tello"
+version = "1.0.0"
+authors = [
+    { name = "Giacomo Mangelli", email = "g.mangelli@consulenzeit.org" },
+]
+description = "Tello Connection application"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[tool.setuptools]
+py-modules = []
