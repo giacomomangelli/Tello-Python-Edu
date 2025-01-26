@@ -14,7 +14,7 @@ class Stats:
         self.response = response
         self.end_time = datetime.now()
         self.duration = self.get_duration()
-        # self.print_stats()
+        self.print_stats()
 
     def get_duration(self):
         diff = self.end_time - self.start_time
